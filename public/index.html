@@ -26,20 +26,17 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-  <!-- Bootstrap core CSS -->
-  <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- External style-- -->
+  <!-- bootstrap -->
 
-  <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="./assets/css/fontawesome.css">
-  <link rel="stylesheet" href="./assets/css/templatemo-finance-business.css">
-  <link rel="stylesheet" href="./assets/css/owl.css">
-
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Ocean Vista</title>
 </head>
 
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
   <div id="root"></div>
   <!--
       This HTML file is a template.
@@ -51,26 +48,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="./vendor/jquery/jquery.min.js"></script>
-  <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Additional Scripts -->
-  <script src="./assets/js/custom.js"></script>
-  <script src="./assets/js/owl.js"></script>
-  <script src="./assets/js/slick.js"></script>
-  <script src="./assets/js/accordions.js"></script>
+  <!-- JavaScript Libraries -->
 
-  <script language="text/Javascript">
-    cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-    function clearField(t) {                   //declaring the array outside of the
-      if (!cleared[t.id]) {                      // function makes it static and global
-        cleared[t.id] = 1;  // you could use true and false, but that's more typing
-        t.value = '';         // with more chance of typos
-        t.style.color = '#fff';
-      }
-    }
-  </script>
+
 </body>
 
 </html>
